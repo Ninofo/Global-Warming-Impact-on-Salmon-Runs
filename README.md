@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-Focusing on the North Thompson watershed region along the Yukon River Basin in Canada. 
+Focusing on the Yukon River Basin in Canada. 
 Provide a short and concise overview of the project. Mention the problem it solves, the data used, and the key outcomes or findings.
 
 - **Objective:** Determine if there is a correlation between increased upriver freshwater temperatures and salmon run populations
@@ -36,14 +36,16 @@ Provide a short and concise overview of the project. Mention the problem it solv
 
 ## Freshwater Temperatures Data
 
-- **Source:** Salmon Watersheds program, Pacific Salmon Foundation 
-- **Description:** includes water temperatures of multiple creeks within the North Thompson Watershed region along the Yukon River Basin in Canada. data is a .dbf file
+- **Source:** Yukon River Panel 
+- **Description:** includes water temperatures of multiple rivers within the Yukon River Basin in Canada.
 - **License:** "Pacific Salmon Foundation (retrieved Oct 2026)
 ---
 
 ## Analysis
 
 Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
+
+data_prep.ipynb was created and used first in order to process and produce our clean dataframe (water_salmon_clean.csv)
 
 ---
 
